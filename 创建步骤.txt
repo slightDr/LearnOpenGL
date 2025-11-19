@@ -1,0 +1,8 @@
+1. VC++ Directories -> 
+	Include Directories: D:\Dev\glfw_build\includes;
+	Library Directories: D:\Dev\glfw_build\lib;
+
+2. Linker -> Input ->
+	Additional Dependencies: glfw3.lib;opengl32.lib;
+
+3. 项目 add exist item -> glfw_build/src/glad.c
