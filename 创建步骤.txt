@@ -5,4 +5,7 @@
 2. Linker -> Input ->
 	Additional Dependencies: glfw3.lib;opengl32.lib;
 
-3. 项目 add exist item -> glfw_build/src/glad.c
+3. C/C++ -> Addtional Include Directories: D:\Dev\glfw_build\src;
+
+4. 项目 add exist item -> glfw_build/src/glad.c
+		   -> glfw_build/src/stb_image.cpp
