@@ -38,5 +38,8 @@
   <ItemGroup>
     <None Include="shaders\Learn1.vs" />
     <None Include="shaders\Learn1.fs" />
+    <None Include="shaders\Learn2.vs" />
+    <None Include="shaders\Learn2.fs" />
+    <None Include="shaders\Practice1.fs" />
   </ItemGroup>
 </Project>
