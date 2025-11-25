@@ -1,5 +1,5 @@
 1. VC++ Directories -> 
-	Include Directories: D:\Dev\glfw_build\includes;
+	Include Directories: D:\Dev\glfw_build\includes;D:\Dev\glm-1.0.2\glm;
 	Library Directories: D:\Dev\glfw_build\lib;
 
 2. Linker -> Input ->
