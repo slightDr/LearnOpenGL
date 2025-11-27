@@ -1,7 +1,8 @@
-#include "1_color/Color.h"
+//#include "1_color/Color.h"
+#include "2_basiclighting/BasicLighting.h"
 
 int main() {
-	Learn1();
+	Show();
 
 	return 0;
 }

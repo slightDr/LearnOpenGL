@@ -24,9 +24,6 @@
     <ClCompile Include="stb_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="1_color\Color.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -35,11 +32,25 @@
     <ClInclude Include="1_color\Color.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="2_basiclighting\BasicLighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="1_color\shaders\Object.vs" />
     <None Include="1_color\shaders\Object.fs" />
     <None Include="1_color\shaders\Light.vs" />
     <None Include="1_color\shaders\Light.fs" />
+    <None Include="2_basiclighting\shaders\Light.fs" />
+    <None Include="2_basiclighting\shaders\Light.vs" />
+    <None Include="2_basiclighting\shaders\Object.fs" />
+    <None Include="2_basiclighting\shaders\Object.vs" />
+    <None Include="2_basiclighting\shaders\Object2.vs" />
+    <None Include="2_basiclighting\shaders\Object2.fs" />
+    <None Include="2_basiclighting\shaders\Object3.fs" />
+    <None Include="2_basiclighting\shaders\Object3.vs" />
   </ItemGroup>
 </Project>

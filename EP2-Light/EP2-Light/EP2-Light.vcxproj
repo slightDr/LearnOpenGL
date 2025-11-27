@@ -130,12 +130,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\_site_pkgs\Glad\src\glad.c" />
-    <ClCompile Include="1_color\Color.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_color\Color.h" />
+    <ClInclude Include="2_basiclighting\BasicLighting.h" />
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +144,14 @@
     <None Include="1_color\shaders\Object.fs" />
     <None Include="1_color\shaders\Light.vs" />
     <None Include="1_color\shaders\Object.vs" />
+    <None Include="2_basiclighting\shaders\Light.fs" />
+    <None Include="2_basiclighting\shaders\Light.vs" />
+    <None Include="2_basiclighting\shaders\Object.fs" />
+    <None Include="2_basiclighting\shaders\Object.vs" />
+    <None Include="2_basiclighting\shaders\Object2.fs" />
+    <None Include="2_basiclighting\shaders\Object2.vs" />
+    <None Include="2_basiclighting\shaders\Object3.fs" />
+    <None Include="2_basiclighting\shaders\Object3.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
