@@ -38,6 +38,9 @@
     <ClInclude Include="2_basiclighting\BasicLighting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="3_material\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="1_color\shaders\Object.vs" />

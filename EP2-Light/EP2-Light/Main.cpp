@@ -1,5 +1,6 @@
 //#include "1_color/Color.h"
-#include "2_basiclighting/BasicLighting.h"
+//#include "2_basiclighting/BasicLighting.h"
+#include "3_material/Material.h"
 
 int main() {
 	Show();
