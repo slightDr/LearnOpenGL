@@ -137,6 +137,7 @@
     <ClInclude Include="1_color\Color.h" />
     <ClInclude Include="2_basiclighting\BasicLighting.h" />
     <ClInclude Include="3_material\Material.h" />
+    <ClInclude Include="4_lightingmaps\LightingMaps.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Shader.h" />
   </ItemGroup>

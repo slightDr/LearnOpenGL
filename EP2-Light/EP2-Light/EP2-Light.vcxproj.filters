@@ -41,6 +41,9 @@
     <ClInclude Include="3_material\Material.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="4_lightingmaps\LightingMaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="1_color\shaders\Object.vs" />
