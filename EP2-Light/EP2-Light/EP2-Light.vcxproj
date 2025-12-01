@@ -138,6 +138,7 @@
     <ClInclude Include="2_basiclighting\BasicLighting.h" />
     <ClInclude Include="3_material\Material.h" />
     <ClInclude Include="4_lightingmaps\LightingMaps.h" />
+    <ClInclude Include="5_lightcast\LightCast.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Shader.h" />
   </ItemGroup>
@@ -154,6 +155,8 @@
     <None Include="2_basiclighting\shaders\Object2.vs" />
     <None Include="2_basiclighting\shaders\Object3.fs" />
     <None Include="2_basiclighting\shaders\Object3.vs" />
+    <None Include="5_lightcast\shaders\Object2.fs" />
+    <None Include="5_lightcast\shaders\Object3.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

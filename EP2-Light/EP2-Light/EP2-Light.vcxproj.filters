@@ -44,6 +44,9 @@
     <ClInclude Include="4_lightingmaps\LightingMaps.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="5_lightcast\LightCast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="1_color\shaders\Object.vs" />
@@ -58,5 +61,7 @@
     <None Include="2_basiclighting\shaders\Object2.fs" />
     <None Include="2_basiclighting\shaders\Object3.fs" />
     <None Include="2_basiclighting\shaders\Object3.vs" />
+    <None Include="5_lightcast\shaders\Object2.fs" />
+    <None Include="5_lightcast\shaders\Object3.fs" />
   </ItemGroup>
 </Project>
