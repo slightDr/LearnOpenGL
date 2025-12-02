@@ -2,7 +2,8 @@
 //#include "2_basiclighting/BasicLighting.h"
 //#include "3_material/Material.h"
 //#include "4_lightingmaps/LightingMaps.h"
-#include "5_lightcast/LightCast.h"
+//#include "5_lightcast/LightCast.h"
+#include "6_multilights/MultiLight.h"
 
 int main() {
 	Show();

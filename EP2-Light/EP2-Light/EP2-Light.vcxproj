@@ -139,6 +139,7 @@
     <ClInclude Include="3_material\Material.h" />
     <ClInclude Include="4_lightingmaps\LightingMaps.h" />
     <ClInclude Include="5_lightcast\LightCast.h" />
+    <ClInclude Include="6_multilights\MultiLight.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Shader.h" />
   </ItemGroup>
